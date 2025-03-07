@@ -1,3 +1,8 @@
+# Ignore all JSON files
 *.json
+
+# Ignore node_modules folder
 node_modules/
+
+# Ignore src folder and all its content
 src/
