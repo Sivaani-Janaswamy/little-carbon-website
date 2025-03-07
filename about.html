@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Sigmar&display=swap" rel="stylesheet">
+    <link href="style.css" rel ="stylesheet">
+    <style>
+      .logo-heading{
+        font-family: 'Sigmar',cursive;
+      }
+    </style>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    
+  <section id = "Front" class="custom-style">
+    <div class="title">
+      <div class="logo">
+          <img class = "images" src="images/carbons.gif" width = "70px" alt = "LittleCarbon-01"/>
+          <a class="logo-heading" href="#">Little Carbons</a>
+          <div class="custom-button">
+            <button class="btn-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Contact Us</button>
+        
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Admission office no: 9029XXXXXX<br>Email Id: littlecarbon@schools.in</p>
+                </div>
+            </div>
+            <img class = "images" src="images/walkingstudent.gif" width = "70px" alt = "walkingstudent"/>
+           </div>
+      </div>
+    </div>  
+    <nav class="navbar">
+      <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="#">Admissions</a></li>
+          <li><a href="#">Payment</a></li>
+          <li><a href="#">Social</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#management">Management</a></li>
+          <li><a href="#alumni">Alumni</a></li>
+          <li><a href="#hostel">Hostel Facilities</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#">Network</a></li>
+      </ul>
+    </nav>
+  </section>
+  <section class = "about">
+    <div class="about-container">
+      <h2><span>About</span> <span>Little</span> <span>Carbons</span> <span>Institutions</span></h2>
+      <p>Welcome to Little Carbons Institutions – a place where education meets innovation. Our mission is to provide a nurturing and challenging environment that empowers students to become lifelong learners and responsible global citizens.</p>
+  
+      <div class="about-images">
+        <img src="images/campus.jpg" alt="Modern School Campus">
+        <img src="images/classroom.jpg" alt="Interactive Classroom">
+        <img src="images/sports.jpg" alt="Sports Facilities">
+      </div>
+  
+      <h3>Our Vision</h3>
+      <p>To foster academic excellence and personal growth by encouraging curiosity, creativity, and a commitment to community service.</p>
+  
+      <h3>Our Mission</h3>
+      <p>At Little Carbons Institutions, we aim to:</p>
+      <ul>
+        <li>Provide a holistic education that balances academics, extracurricular activities, and character development.</li>
+        <li>Embrace modern teaching methods to prepare students for future challenges.</li>
+        <li>Inspire critical thinking, leadership, and a sense of responsibility among our students.</li>
+      </ul>
+  
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <li><strong>Experienced Faculty:</strong> Our dedicated and qualified teachers are committed to academic excellence and student success.</li>
+        <li><strong>State-of-the-Art Facilities:</strong> Modern classrooms, science labs, sports arenas, and digital learning resources.</li>
+        <li><strong>Comprehensive Curriculum:</strong> A well-rounded curriculum that encourages intellectual, emotional, and social development.</li>
+        <li><strong>Inclusive Environment:</strong> We value diversity and ensure a safe, supportive space for all students.</li>
+      </ul>
+  
+      <h3>Join Us</h3>
+      <p>Be a part of an educational journey where every student is valued and empowered to achieve their dreams. Explore our academics, facilities, and community programs to see how we make learning a meaningful experience.</p>
+    </div>
+  </section>
+  <section class = "Chatbots">
+    <div class="chatbot-container">
+      <div class="chatbot-toggle" onclick="toggleChatbot()">
+          <img src="images/robo.jpg" alt="Chatbot" class="chatbot-icon">
+      </div>
+  
+      <div class="chatbot-window" id="chatbotWindow">
+          <div class="chatbot-header">
+              <p>Chat with us!</p>
+              <button class="close-btn" onclick="toggleChatbot()">✕</button>
+          </div>
+  
+          <div class="chatbot-body" id="chatbotBody">
+              <p>Hi, I'm CarboRobo! How can I help you today?</p>
+          </div>
+  
+          <div class="chatbot-input">
+              <input type="text" id="userInput" placeholder="Type your message...">
+              <button onclick="sendMessage()">Send</button>
+          </div>
+      </div>
+  </div>
+  
+  <section class = "Last">
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-links">
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+              <a href="#">FAQ</a>
+          </div>
+          <p class="footer-text">© 2025 LittleCarbonsInstituitions. All rights reserved.</p>
+      </div>
+  </footer>
+  </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
