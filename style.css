@@ -525,7 +525,7 @@ section.about .about-images img {
     align-items: center;
   }
 }
-
+@media (max-width: 768px) {
 #Menu-custom .btn-custom {
   top: 10px;
   right: 250px;
@@ -581,4 +581,8 @@ section.about .about-images img {
 
 .custom-sidebar-links li a:hover {
   color: #ffae00;
+}
+}
+#Menu-custom{
+  display: none;
 }
