@@ -525,3 +525,60 @@ section.about .about-images img {
     align-items: center;
   }
 }
+
+#Menu-custom .btn-custom {
+  top: 10px;
+  right: 250px;
+  position: fixed;
+  background-color: #ffae00;
+  color: white;
+  width: 50px; /* Equal width and height */
+  height: 50px; 
+  font-size: 24px; /* Larger size for ≡ symbol */
+  border: none;
+  border-radius: 50%; /* Makes it a circle */
+  cursor: pointer;
+  display: flex; /* Center the symbol */
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  transition: background 0.3s ease;
+}
+
+#Menu-custom .btn-custom:hover {
+  background-color: #f48600;
+}
+
+#offcanvasCustomMenu {
+  width: 280px; /* Custom width for offcanvas */
+  background: #f9f9f9;
+}
+
+.custom-offcanvas-header {
+  background: #ff9900;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.custom-offcanvas-body {
+  padding: 20px;
+}
+
+.custom-sidebar-links {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-sidebar-links li {
+  margin-bottom: 12px;
+}
+
+.custom-sidebar-links li a {
+  text-decoration: none;
+  color: #0d0800;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.custom-sidebar-links li a:hover {
+  color: #ffae00;
+}
