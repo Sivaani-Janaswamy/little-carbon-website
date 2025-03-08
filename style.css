@@ -528,7 +528,7 @@ section.about .about-images img {
 @media (max-width: 768px) {
 #Menu-custom .btn-custom {
   top: 10px;
-  right: 250px;
+  right: 25px;
   position: fixed;
   background-color: #ffae00;
   color: white;
@@ -583,6 +583,8 @@ section.about .about-images img {
   color: #ffae00;
 }
 }
-#Menu-custom{
-  display: none;
+@media (min-width: 769px) {
+  #Menu-custom .btn-custom {
+    display: none; 
+  }
 }
