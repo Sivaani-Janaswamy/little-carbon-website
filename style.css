@@ -590,3 +590,64 @@ section.about .about-images img {
     display: none; 
   }
 }
+
+  #Front .custom-offcanvas {
+    background: linear-gradient(135deg, #d4ffd3, #c2ffae);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.5s ease-in-out;
+  }
+
+  #Front .offcanvas-header {
+    background: #fafffa;
+    border-bottom: 3px dashed #99ffa8;
+    border-top-right-radius: 35px;
+    padding: 2rem;
+  }
+
+  #Front .offcanvas-title {
+    font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 1px 1px 4px #b7ffb6;
+  }
+
+  #Front .offcanvas-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+    color: #5A5A5A;
+    padding: 1.5rem;
+  }
+
+  #Front .offcanvas-body p {
+    margin-bottom: 2rem;
+  }
+
+  #Front .btn-close {
+    background-color: #2dd14b;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+  #Front .offcanvas-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+    color: #5A5A5A;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
