@@ -651,3 +651,91 @@ section.about .about-images img {
       transform: translateX(0);
     }
   }
+  #little-carbon-academics.academics {
+    background: linear-gradient(135deg, #FF6F61, #6A0572, #2E86AB);
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 0px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#little-carbon-academics h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+    background: linear-gradient(45deg, #FFD700, #FF6347);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#little-carbon-academics h3 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    border-bottom: 3px solid #FFC107;
+    padding-bottom: 10px;
+}
+
+#little-carbon-academics p, #little-carbon-academics li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+#little-carbon-academics ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#little-carbon-academics li {
+    margin: 10px 0;
+}
+
+#little-carbon-academics li::before {
+    content: '\2728';
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#little-carbon-academics .curriculum, 
+#little-carbon-academics .grade-levels, 
+#little-carbon-academics .special-programs {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#little-carbon-academics .curriculum:hover, 
+#little-carbon-academics .grade-levels:hover, 
+#little-carbon-academics .special-programs:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#little-carbon-academics img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #little-carbon-academics h2 {
+        font-size: 2rem;
+    }
+
+    #little-carbon-academics h3 {
+        font-size: 1.5rem;
+    }
+
+    #little-carbon-academics p, #little-carbon-academics li {
+        font-size: 1rem;
+    }
+
+    #little-carbon-academics img {
+        max-width: 300px;
+    }
+}
