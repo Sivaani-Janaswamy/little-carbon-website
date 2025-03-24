@@ -666,7 +666,6 @@ section.about .about-images img {
     margin-bottom: 40px;
     letter-spacing: 1.5px;
     background: linear-gradient(45deg, #FFD700, #FF6347);
-    -webkit-background-clip: text;
     color: transparent;
 }
 
